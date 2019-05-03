@@ -1,0 +1,3 @@
+[submodule "libdivsufsort"]
+	path = libdivsufsort
+	url = git@github.com:ucyo/libdivsufsort.git
