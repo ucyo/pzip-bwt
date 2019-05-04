@@ -1,6 +1,7 @@
+#![allow(dead_code)]
 mod divsufsort;
 
-fn apply_bwt(data: &mut Vec<u8>) -> i32 {
+pub fn apply_bwt(data: &mut Vec<u8>) -> i32 {
     let mut sa = Vec::with_capacity(data.len());
     sa.resize(data.len(), 0);
     let pidx: i32;
@@ -10,7 +11,7 @@ fn apply_bwt(data: &mut Vec<u8>) -> i32 {
     pidx
 }
 
-fn reverse_bwt(data: &mut Vec<u8>, pidx: i32) {
+pub fn reverse_bwt(data: &mut Vec<u8>, pidx: i32) {
     let mut sa = Vec::with_capacity(data.len());
     sa.resize(data.len(), 0);
     unsafe {
