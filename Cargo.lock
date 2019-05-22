@@ -12,7 +12,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "rust-bwt"
+name = "pzip-bwt"
 version = "0.1.0"
 dependencies = [
  "cmake 0.1.38 (registry+https://github.com/rust-lang/crates.io-index)",

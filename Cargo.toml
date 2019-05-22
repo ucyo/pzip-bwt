@@ -1,5 +1,5 @@
 [package]
-name = "rust-bwt"
+name = "pzip-bwt"
 version = "0.1.0"
 authors = ["ucyo <cayoglu@me.com>"]
 edition = "2018"
